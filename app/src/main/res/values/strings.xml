@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">notification download</string>
+    <string name="channel_name">com.example.notificationdownload</string>
+    <string name="channel_description">notification download</string>
+</resources>
