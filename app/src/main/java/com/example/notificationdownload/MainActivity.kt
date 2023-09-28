@@ -18,6 +18,9 @@ import androidx.core.app.NotificationCompat
 import androidx.core.app.NotificationManagerCompat
 
 class MainActivity : AppCompatActivity() {
+    private var primaryProgressStatus: Int =100
+    private val notificationId = 10
+    var jumpTime = 0
     private lateinit var downloadBtn :Button
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
